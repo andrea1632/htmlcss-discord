@@ -141,6 +141,9 @@ header nav .button:hover{
     filter: invert(100%) sepia(7%) saturate(97%) hue-rotate(207deg) brightness(114%) contrast(93%);
     display: block;
 }
+#reverted{
+    transform: scaleY(-1);
+}
 .section-4{
     position: relative;
     padding-bottom: 150px;
