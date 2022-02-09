@@ -31,6 +31,9 @@ header{
 .bg-lightblue{
     background-color:rgb(142, 161, 225);
 }
+.text-lightblue{
+    color:rgb(142, 161, 225);
+}
 /* END OF UTIL */
 header nav{
     width: 80%;
@@ -104,6 +107,9 @@ header nav .button:hover{
     line-height: 24px;
     vertical-align: middle;
 }
+.hero-text div a{
+    margin-right: 20px;
+}
 
 .text-content{
     width: 30%;
@@ -162,4 +168,63 @@ header nav .button:hover{
 }
 .big-item p{
     font-size: 1.5em;
+}
+footer{
+    background-color: rgb(35, 39, 42);
+}
+.footer-content{
+    padding: 80px;
+    position: relative;
+}
+#ita{
+    height: 16px;
+    vertical-align: middle;
+}
+#down-arrowed{
+    margin-left: 4px;
+    vertical-align: middle;
+}
+.footer-content h4{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+footer ul{
+    list-style: none;
+    float: left;
+    font-size: 1.5em;
+    margin-right: 80px;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.container-socials{
+    float: left;
+    width: 300px;
+}
+#last-ul{
+    margin-right: 0;
+}
+.footer-content nav{
+    border-bottom: 1px solid rgb(74, 88, 130);
+    margin: auto;
+    padding-bottom: 20px;
+}
+.footer-content .button{
+    position: absolute;
+    right: 20%;
+    margin-top:20px ;
+}
+.footer-content #logo{
+    margin-left: calc(20% - 40px);
+    margin-top: 20px;
+}
+.container-socials ul li img{
+    height: 32px;
+    margin-right: 10px;
+}
+.socials{
+    margin-top: 20px;
 }
