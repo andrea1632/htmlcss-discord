@@ -127,4 +127,9 @@ header nav .button:hover{
     margin-top: 150px;
     position: relative;
     background-color: rgb(246, 246, 246);
+    padding-bottom: 150px;
+}
+.section-4{
+    position: relative;
+    padding-bottom: 150px;
 }
