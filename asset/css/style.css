@@ -133,10 +133,13 @@ header nav .button:hover{
     font-size: 1.4em;
 }
 .section-3{
-    margin-top: 150px;
-    position: relative;
-    background-color: rgb(246, 246, 246);
     padding-bottom: 150px;
+    background-color: rgb(246, 246, 246);
+}
+.wave{
+    width: 100%;
+    filter: invert(100%) sepia(7%) saturate(97%) hue-rotate(207deg) brightness(114%) contrast(93%);
+    display: block;
 }
 .section-4{
     position: relative;
@@ -227,4 +230,7 @@ footer a:hover{
 }
 .socials{
     margin-top: 20px;
+}
+footer ul li{
+    margin-top: 10px;
 }
